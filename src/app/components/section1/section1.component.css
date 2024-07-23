@@ -1,0 +1,44 @@
+.section1-main-div {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.section1-div {
+  width: 610px;
+  height: 650px;
+  flex-shrink: 0;
+  background: #000;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.section1-div h2 {
+  width: 387px;
+  color: #fff;
+  font-family: "DM Sans";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 120% */
+  letter-spacing: 4.167px;
+  text-transform: uppercase;
+}
+.section1-div p {
+  width: 387px;
+  color: #fff;
+  font-family: "DM Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+.section1-div2 {
+    width: 850px;
+flex-shrink: 0;
+    background: url("../../../assets/images/home/create-and-share.jpg") lightgray 0px 0px / 100% 100% no-repeat;
+}

@@ -1,0 +1,25 @@
+.header {
+    height: 72px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.header-ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.header-ul li {
+  list-style: none;
+  margin-left: 10px;
+  color: #000;
+  font-family: "DM Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+
+

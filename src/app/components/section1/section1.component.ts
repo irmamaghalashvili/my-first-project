@@ -2,12 +2,12 @@ import { Component } from '@angular/core';
 import { ButtonComponent } from '../button/button.component';
 
 @Component({
-  selector: 'app-header',
+  selector: 'app-section1',
   standalone: true,
   imports: [ButtonComponent],
-  templateUrl: './header.component.html',
-  styleUrl: './header.component.css'
+  templateUrl: './section1.component.html',
+  styleUrl: './section1.component.css'
 })
-export class HeaderComponent {
+export class Section1Component {
 
 }
